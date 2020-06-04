@@ -1,10 +1,10 @@
-# 3D Arctic Run | Corona SDK Template
+# Granny Dive | Solar2D / Corona SDK Template
 [![N](https://www.deepblueideas.com/dbiNew2/wp-content/uploads/2015/08/gdBanner.jpg)](https://www.deepblueideas.com/product/granny-dive/)
 
 [![N](https://www.deepblueideas.com/dbiNew2/wp-content/uploads/2015/08/a2.jpeg)](https://www.deepblueideas.com/product/granny-dive/)
 
 ```sh
-Solar2d SDK 2020.3598
+Solar2D SDK 2020.3598
 Corona SDK 2018.3326
 ©2020 Wayne Hawksworth - Deep Blue Ideas
 ```
