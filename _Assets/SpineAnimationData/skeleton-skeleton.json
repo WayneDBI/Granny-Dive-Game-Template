@@ -1,0 +1,73 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "hip", "parent": "root", "x": 3.67, "y": 179.15 },
+	{ "name": "r_leg_upper", "parent": "hip", "length": 127.92, "x": -57.82, "y": -8.37, "rotation": -102.01 },
+	{ "name": "l_leg_upper", "parent": "hip", "length": 115.86, "x": 32.4, "y": -20.49, "rotation": -84.19 },
+	{ "name": "body", "parent": "hip", "length": 210.91, "x": -0.05, "y": 0.12, "rotation": 91.67 },
+	{ "name": "r_foot", "parent": "r_leg_upper", "length": 103.93, "x": 127.24, "y": -0.16, "rotation": 92.32 },
+	{ "name": "l_foot", "parent": "l_leg_upper", "length": 98.48, "x": 115.44, "y": -0.2, "rotation": 81.93 },
+	{ "name": "r_arm", "parent": "body", "length": 168.92, "x": 189.69, "y": 99.68, "rotation": 162.45 },
+	{ "name": "l_arm", "parent": "body", "length": 166.51, "x": 187.29, "y": -41.72, "rotation": -130.07 },
+	{ "name": "head", "parent": "body", "length": 119.32, "x": 207.89, "y": 4.54, "rotation": -2.15 },
+	{ "name": "handbag", "parent": "r_arm", "length": 47.71, "x": 201.86, "y": 35.51, "rotation": 15.91 },
+	{ "name": "r_hand", "parent": "r_arm", "length": 48.87, "x": 168.57, "y": 0.08, "rotation": 48.44 },
+	{ "name": "l_hand", "parent": "l_arm", "length": 45.85, "x": 159.57, "y": -0.47, "rotation": -14.82 },
+	{ "name": "umbrella", "parent": "l_arm", "length": 97.76, "x": 184.95, "y": -10.45, "scaleX": 0.987, "rotation": 77.5 }
+],
+"slots": [
+	{ "name": "granny_Mock", "bone": "root", "color": "ff2c8246" },
+	{ "name": "l_leg_upper", "bone": "l_leg_upper", "attachment": "Gran-Leg@2x" },
+	{ "name": "l_foot", "bone": "l_foot", "attachment": "Gran-FootSep@2x" },
+	{ "name": "r_leg_upper", "bone": "r_leg_upper", "attachment": "Gran-Leg@2x" },
+	{ "name": "r_foot", "bone": "r_foot", "attachment": "Gran-FootSep@2x" },
+	{ "name": "l_hand", "bone": "l_hand", "attachment": "Gran-HandLeft@2x" },
+	{ "name": "umbrella", "bone": "umbrella", "attachment": "Gran-Umbrella@2x" },
+	{ "name": "l_arm", "bone": "l_arm", "attachment": "Gran-ArmLeft@2x" },
+	{ "name": "body", "bone": "body", "attachment": "Gran-Body@2x" },
+	{ "name": "handbag", "bone": "handbag", "attachment": "Gran-HandBag@2x" },
+	{ "name": "r_hand", "bone": "r_hand", "attachment": "Gran-HandRight@2x" },
+	{ "name": "r_arm", "bone": "r_arm", "attachment": "Gran-RightArm@2x" },
+	{ "name": "head", "bone": "head", "attachment": "Gran-Head@2x" }
+],
+"skins": {
+	"default": {
+		"l_leg_upper": {
+			"Gran-Leg@2x": { "x": 53.46, "y": -5.35, "rotation": 87.29, "width": 72, "height": 170 }
+		},
+		"l_foot": {
+			"Gran-FootSep@2x": { "x": 32.57, "y": 1.81, "rotation": 5.36, "width": 172, "height": 84 }
+		},
+		"r_leg_upper": {
+			"Gran-Leg@2x": { "x": 56.55, "y": -0.37, "rotation": 94.28, "width": 72, "height": 170 }
+		},
+		"r_foot": {
+			"Gran-FootSep@2x": { "x": 47.13, "y": -0.15, "rotation": 9.29, "width": 172, "height": 84 }
+		},
+		"l_hand": {
+			"Gran-HandLeft@2x": { "x": 32.65, "y": 1.74, "rotation": 85.12, "width": 90, "height": 81 }
+		},
+		"umbrella": {
+			"Gran-Umbrella@2x": { "x": 150.87, "y": -6.66, "scaleX": 0.953, "rotation": -88.18, "width": 110, "height": 446 }
+		},
+		"l_arm": {
+			"Gran-ArmLeft@2x": { "x": 68.31, "y": 10.59, "rotation": 75.96, "width": 114, "height": 202 }
+		},
+		"body": {
+			"Gran-Body@2x": { "x": 96.8, "y": 10.41, "rotation": -90.22, "width": 276, "height": 290 }
+		},
+		"handbag": {
+			"Gran-HandBag@2x": { "x": 41.74, "y": 5.96, "rotation": 89.96, "width": 112, "height": 156 }
+		},
+		"r_hand": {
+			"Gran-HandRight@2x": { "x": 26.33, "y": 4.97, "rotation": 58.47, "width": 96, "height": 71 }
+		},
+		"r_arm": {
+			"Gran-RightArm@2x": { "x": 80.32, "y": -0.04, "rotation": 104.63, "width": 114, "height": 203 }
+		},
+		"head": {
+			"Gran-Head@2x": { "x": 120.26, "y": -7.85, "rotation": -90, "width": 270, "height": 306 }
+		}
+	}
+}
+}
